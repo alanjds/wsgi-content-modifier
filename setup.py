@@ -3,7 +3,7 @@ import setuptools
 from setuptools import setup, find_packages
 from distutils.core import setup
 
-VERSION = "1.0",
+VERSION = "1.0"
 
 setup(
     name = "wsgi-content-modifier",
@@ -16,7 +16,7 @@ setup(
     tests_require = [],
     test_suite = 'tests.suite',
     description = "A WSGI base for middlewares that modifies (transforms) the response",
-    packages = find_packages(exclude=["tests"]),
+    packages = find_packages(),
     include_package_data = True,
     classifiers=[
         "Intended Audience :: Developers",
